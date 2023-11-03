@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&display=swap');
+body{
+    background-color: #0e344b;
+    font-family: 'Baloo Chettan 2', 'cursive';
+    
+}
+.weather-card{
+    background-color:  #FFFDF7;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 3%;
+    height: 60%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weather-data{
+    gap:100px;
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#weather-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.temp-items{
+    margin: 0;
+    padding: 0;
+}
+input{
+    background-color: aliceblue;
+    font-size: 25px;
+    border-width: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.input-box{
+    width: 70%;
+    padding: 2px 0px 2px 10px;
+}
+.button{
+    margin-left: 10px;
+    padding: 2px 5px 2px 5px;
+    background-color: #2CA58D;
+}
+
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
